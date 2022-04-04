@@ -33,7 +33,7 @@ export default function SignUp() {
           <input className="pwd" type="password" required />
         </div>
         <button className="btn btn-primary">SignUp</button>
-        <Link to="/login">
+        <Link to="/login" className="no-deco">
           <button className="btn btn-link">Or Login</button>
         </Link>
       </div>

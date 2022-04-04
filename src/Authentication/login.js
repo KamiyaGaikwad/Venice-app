@@ -18,7 +18,7 @@ export default function Login() {
           <input className="pwd" type="password" required />
         </div>
         <button className="btn btn-primary">Login</button>
-        <Link to="/signup" class="no-deco">
+        <Link to="/signup" className="no-deco">
           <button className="btn btn-link">Or Signup</button>
         </Link>
       </div>
