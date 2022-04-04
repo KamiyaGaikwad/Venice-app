@@ -1,0 +1,78 @@
+/* @import url("https://infusify.netlify.app/styles/Infusify.css"); */
+
+.white-box {
+  background-color: var(--white);
+  width: 20rem;
+  border: 1px solid var(--hot-pink);
+  padding: 1rem;
+  margin: 7rem auto;
+}
+
+.white-box .btn {
+  margin-left: 7rem;
+}
+
+.white-box-signup {
+  background-color: var(--white);
+  width: 20rem;
+  border: 1px solid var(--hot-pink);
+  padding: 2rem;
+  margin: 2rem auto;
+}
+
+.white-box-signup .btn-primary {
+  margin-left: 6rem;
+}
+
+.white-box-signup .fa-eye {
+  font-size: 1rem;
+}
+
+.white-box-signup .btn-link,
+.white-box .btn-link {
+  color: var(--hot-pink);
+  display: block;
+  margin-left: 6rem;
+  font-size: 1.2rem;
+}
+
+.nav .logo img {
+  height: 50px;
+}
+
+.nav .btn-primary {
+  padding: 0.6em 0.8em;
+}
+
+.nav .badge {
+  margin: 0 1em;
+}
+
+.nav .cart-icon {
+  margin-left: 0;
+}
+
+.nav .badge i {
+  font-size: 1.7em;
+  color: var(--light-pink);
+}
+
+.nav .brand {
+  text-decoration: none;
+}
+.nav .badge a {
+  cursor: pointer;
+}
+
+.logout-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  font-size: 2rem;
+  font-family: var(--brand-font);
+}
+
+.no-deco {
+  text-decoration: none;
+}

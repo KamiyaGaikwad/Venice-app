@@ -1,0 +1,169 @@
+/* @import url("https://infusify.netlify.app/styles/Infusify.css"); */
+
+:root {
+  --blue-hover: rgb(22, 84, 134);
+  --pink-hover: rgb(216, 144, 216);
+}
+
+.flex-container {
+  display: flex;
+}
+.flex-columns {
+  flex-direction: column;
+}
+
+.mb {
+  margin-bottom: 0.8rem;
+}
+
+.ml {
+  margin-left: 4rem;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+.text-small {
+  font-size: 1rem;
+  margin-left: 0.3rem;
+}
+
+.brand {
+  text-decoration: none;
+}
+
+.card-subtitle {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+}
+
+.card-shadow {
+  height: 380px;
+  width: 80%;
+}
+
+#card-container {
+  background-color: transparent;
+}
+
+.wish-add {
+  background-color: var(--light-pink);
+  color: var(--violet);
+  border: none;
+}
+
+.wish-normal {
+  background-color: transparent;
+  color: var(--violet);
+  border: 1px solid var(--violet);
+}
+
+.cart-normal {
+  color: var(--container-border-white);
+  background-color: var(--dark-blue);
+}
+
+.card-btn-1,
+.card-btn-2 {
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  display: block;
+}
+
+.cart-add {
+  background-color: var(--container-border-white);
+  color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+}
+
+.nav .btn-primary {
+  padding: 0.6em 0.8em;
+}
+
+.nav .badge {
+  margin: 0 1em;
+}
+
+.nav .cart-icon {
+  margin-left: 0;
+}
+
+.nav .badge i {
+  font-size: 1.7em;
+  color: var(--light-pink);
+}
+
+.nav .brand {
+  text-decoration: none;
+}
+.nav .badge a {
+  cursor: pointer;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.nav .logo img {
+  height: 50px;
+}
+
+.pink {
+  background-color: var(--hot-pink);
+}
+
+.card-text-only {
+  border: 1px solid var(--container-border-white);
+  height: 20rem;
+}
+
+.card-text-only .card-text {
+  color: var(--black);
+}
+
+.card-body1 {
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.text-big {
+  font-size: 1rem;
+}
+
+.end {
+  position: absolute;
+  right: 0;
+}
+
+.card-text,
+.card-subtitle {
+  position: relative;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-actions {
+  margin-left: 2rem;
+  top: 0.85rem;
+}
+
+@media only screen and (max-width: 813px) {
+  .card-shadow .card-btn-1,
+  .card-shadow .card-btn-2 {
+    font-size: 0.5em;
+  }
+}
+
+.card-btn-1:hover {
+  background-color: var(--blue-hover);
+}
+
+.card-btn-2:hover {
+  background-color: var(--pink-hover);
+}

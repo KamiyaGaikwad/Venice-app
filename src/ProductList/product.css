@@ -1,0 +1,140 @@
+/* @import url("https://infusify.netlify.app/styles/Infusify.css"); */
+
+:root {
+  --blue-hover: rgb(22, 84, 134);
+  --pink-hover: rgb(216, 144, 216);
+  --hot-pink-hover: rgb(95, 15, 66);
+}
+
+.flex-container {
+  display: flex;
+}
+.flex-rows {
+  flex-direction: row;
+}
+
+.flex-columns {
+  flex-direction: column;
+}
+
+.nav-vertical {
+  grid-area: aside;
+  background-color: var(--container-border-white);
+  height: 100vh;
+  padding: 2rem;
+  width: max-content;
+  position: sticky;
+  top: 0px;
+  bottom: 100px;
+  overflow-y: scroll;
+}
+
+.nav-vertical .btn-link {
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: var(--hot-pink);
+  padding: 0;
+  padding-top: 0.4rem;
+  margin-left: 3rem;
+}
+
+.mb {
+  margin-bottom: 0.8rem;
+}
+
+.ml {
+  margin-left: 4rem;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+.text-small {
+  font-size: 1rem;
+  margin-left: 0.3rem;
+}
+
+.brand {
+  text-decoration: none;
+}
+
+.card-subtitle {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+}
+
+.card-shadow {
+  height: 380px;
+  width: 80%;
+}
+
+#card-container {
+  background-color: transparent;
+}
+
+.wish-add {
+  background-color: var(--light-pink);
+  color: var(--violet);
+  border: none;
+}
+
+.wish-normal {
+  background-color: transparent;
+  color: var(--violet);
+  border: 1px solid var(--violet);
+}
+
+.cart-normal {
+  color: var(--container-border-white);
+  background-color: var(--dark-blue);
+}
+
+.card-btn-1,
+.card-btn-2 {
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  display: block;
+}
+
+.cart-add {
+  background-color: var(--container-border-white);
+  color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+}
+
+.nav .btn-primary {
+  padding: 0.6em 0.8em;
+}
+
+.nav .badge {
+  margin: 0 1em;
+}
+
+.nav .cart-icon {
+  margin-left: 0;
+}
+
+.nav .badge i {
+  font-size: 1.7em;
+  color: var(--light-pink);
+}
+
+.nav .brand {
+  text-decoration: none;
+}
+.nav .badge a {
+  cursor: pointer;
+}
+
+.nav .logo img {
+  height: 50px;
+}
+
+.card-btn-1:hover {
+  background-color: var(--blue-hover);
+}
+
+.card-btn-2:hover {
+  background-color: var(--pink-hover);
+}
