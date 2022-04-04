@@ -1,3 +1,13 @@
-## E-Commerce Backend
+[![wakatime](https://wakatime.com/badge/user/96974b03-e435-4d4d-89a2-486553721b5a/project/41aa6337-e3d7-432b-89c7-c2b8610bee5b.svg)](https://wakatime.com/badge/user/96974b03-e435-4d4d-89a2-486553721b5a/project/41aa6337-e3d7-432b-89c7-c2b8610bee5b)
+# Venice
+## E-commerce App
+Venice is a E-commerce App for shopping 7 color themes of jackets.
 
-This folder contains the Mock Backend created for E-Commerce App. It contains different API end-points and database configuration for building E-Commerce; so that you can focus on building Frontend.
+## E-Commerce Backend
+The Backend is implemented using [mockBee](https://mockbee.netlify.app/)
+
+## Live Link
+https://venice-ecom-app.netlify.app/
+
+## Preview
+![Desktop View](Images/desktop-preview.PNG)
