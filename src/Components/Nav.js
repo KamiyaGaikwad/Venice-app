@@ -5,8 +5,8 @@ import { useCart } from "../Context/cartContext";
 import { useWish } from "../Context/wishContext";
 
 const Nav =() =>{
-  const {cartstate,cartdispatch} = useCart();
-  const {cartitems,cartprice} = cartstate;
+  const {cartstate} = useCart();
+  const {cartitems} = cartstate;
     const {wishstate} = useWish();
     const {wishItems} = wishstate;
     return(

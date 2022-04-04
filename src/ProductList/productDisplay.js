@@ -1,6 +1,5 @@
 import "./product.css";
-import Nav from "../Components/Nav"
-// import products1 from "./products";
+import Nav from "../Components/Nav";
 import ProductCard from "../Components/ProductCard";
 import { useProducts } from "../Context/productContext";
 import { getSortedData } from "../backend/utils/getPriceSorted";
@@ -11,7 +10,7 @@ import getCategorySorted from "../backend/utils/getCategorySorted";
 
 export default function ProductList() {
 
-    const{state,dispatch}  = useProducts();
+    const{state}  = useProducts();
     const{products,sortBy,priceRange,rating,category} = state;
     let productList = [...products];
     const sortedData = getSortedData(productList, sortBy);
@@ -34,7 +33,7 @@ export default function ProductList() {
             <h2 className="brand">
               Showing All products
               <span className="text-small">
-                (Showing {categorySorted.length} {categorySorted.length==1?"product":"products"})
+                (Showing {categorySorted.length} {categorySorted.length===1?"product":"products"})
               </span>
             </h2>
             <div id="card-container" className="mt flex-columns">

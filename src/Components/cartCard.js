@@ -4,7 +4,7 @@ import { useWish } from "../Context/wishContext";
 
 
 function CartCard(item){
-  const {cartstate,cartdispatch} = useCart();
+  const {cartdispatch} = useCart();
   const{wishdispatch} = useWish();
   console.log(item)
 
@@ -34,8 +34,4 @@ function CartCard(item){
             </div>
 
     );}
-  // else{
-  //   return null;
-  // }}
-
-    export default CartCard;
+     export default CartCard;

@@ -1,11 +1,10 @@
-import logo from "../Images/venice-logo.png";
 import "./wish.css";
 import { useWish } from "../Context/wishContext";
 import Nav from "../Components/Nav";
 import WishCard from "../Components/wishCard";
 
 export default function WishList() {
-  const {wishstate,wishdispatch} = useWish();
+  const {wishstate} = useWish();
 const {wish,wishItems} = wishstate
 
   return (

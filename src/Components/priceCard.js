@@ -1,6 +1,6 @@
 import "../CartManagement/cart.css";
 import { useCart } from "../Context/cartContext";
-
+import { Link } from "react-router-dom";
 
 
 export default function PriceCard(){
@@ -29,9 +29,9 @@ const {cartitems,cartprice} = cartstate;
                     You will save ₹0 on this order
                   </div>
                   <div className="cart-card-actions cart-flex-container cart-flex-center">
-                    <a href="#" className="cart-card-btn-1 cart-pink cart-mb cart-cart-normal">
+                    <Link to="/" className="cart-card-btn-1 cart-pink cart-mb cart-cart-normal cart-no-deco">
                       Place Order
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>)

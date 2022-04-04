@@ -1,6 +1,3 @@
-import { useEffect } from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import logo from "../Images/venice-logo.png";
 import "./cart.css";
 import { useCart } from "../Context/cartContext";
 import Nav from "../Components/Nav";
@@ -9,8 +6,8 @@ import PriceCard from "../Components/priceCard";
 
 export default function Cart() {
 
-  const {cartstate,cartdispatch} = useCart();
-  const {cart,cartitems,cartprice} = cartstate;
+  const {cartstate} = useCart();
+  const {cart,cartitems} = cartstate;
 
   return (
     <>

@@ -8,7 +8,7 @@ export default function getCategorySorted(productList,categoryArray){
     let productArray6 = [...productList];
     let productArray7 = [...productList];
 if(categoryArray.includes("Red")){
-    categorySortedArray.push(...productArray1.filter((item)=>item.category == "Red"))
+    categorySortedArray.push(...productArray1.filter((item)=>item.category === "Red"))
 }
 if(categoryArray.includes("Orange")){
     

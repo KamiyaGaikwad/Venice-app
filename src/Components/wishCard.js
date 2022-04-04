@@ -4,7 +4,7 @@ import { useCart } from "../Context/cartContext";
 
 
 function WishCard(item){
-  const {wishstate,wishdispatch} = useWish();
+  const {wishdispatch} = useWish();
 const {cartdispatch} = useCart();
   return(
 

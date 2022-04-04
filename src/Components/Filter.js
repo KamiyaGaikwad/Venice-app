@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useProducts } from "../Context/productContext";
 
 export default function Filter(){

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import logo from "../Images/venice-logo.png";
 import "../App.css";
 import Nav from "../Components/Nav";
 import { useProducts } from "../Context/productContext";

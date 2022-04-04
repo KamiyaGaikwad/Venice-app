@@ -4,8 +4,8 @@ import { useWish } from "../Context/wishContext";
 
 
 function ProductCard( item ){
-  const {cartstate,cartdispatch} = useCart();
-  const{wishstate, wishdispatch} = useWish();
+  const {cartdispatch} = useCart();
+  const{wishdispatch} = useWish();
     return(
             <div className="card card-basic card-shadow">
                     <img src={item.imageURL} className="card-img-top" alt="jacket" />

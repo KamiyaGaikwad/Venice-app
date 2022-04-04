@@ -1,4 +1,4 @@
-@import url();
+/* @import url(); */
 :root {
   --blue-hover: rgb(22, 84, 134);
   --pink-hover: rgb(216, 144, 216);
@@ -207,4 +207,8 @@
   display:grid;
   grid-template-columns:1fr 1fr;
   grid-gap:2rem;
+}
+
+.cart-no-deco{
+  text-decoration: none;
 }

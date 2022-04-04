@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import Nav from "../Components/Nav";
 import "./login.css";
 
 export default function SignUp() {
-  
+  const [typeOfPassword,setTypeOfPassword] = useState("password"); 
   return (
     <>
       <Nav />
@@ -23,9 +24,9 @@ export default function SignUp() {
         </div>
         <div className="input-group">
           <label>Password*</label>
-          <input className="pwd" type="password" required />
-          <button className="btn btn-primary">
-            <i className="fas fa-eye" />
+          <input className="pwd" type={typeOfPassword} required />
+          <button className="btn btn-primary"  onClick={()=>typeOfPassword==="password"?setTypeOfPassword("text"):setTypeOfPassword("password")}>
+            <i className={typeOfPassword==="password"?"fas fa-eye":"fas fa-eye-slash"} />
           </button>
         </div>
         <div className="input-group">
