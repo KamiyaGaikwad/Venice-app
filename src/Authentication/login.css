@@ -73,6 +73,6 @@
   font-family: var(--brand-font);
 }
 
-a {
+.no-deco {
   text-decoration: none;
 }
