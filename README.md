@@ -10,4 +10,4 @@ The Backend is implemented using [mockBee](https://mockbee.netlify.app/)
 https://venice-ecom-app.netlify.app/
 
 ## Preview
-![Desktop View](Images/desktop-preview.PNG)
+![Desktop View](src/Images/desktop-preview.PNG)
