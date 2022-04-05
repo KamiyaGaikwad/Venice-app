@@ -7,7 +7,7 @@ Venice is a E-commerce App for shopping 7 color themes of jackets.
 The Backend is implemented using [mockBee](https://mockbee.netlify.app/)
 
 ## Live Link
-https://venice-ecom-app.netlify.app/
+https://venice-app.herokuapp.com/
 
 ## Preview
 ![Desktop View](src/Images/app-desktop-preview.PNG)
