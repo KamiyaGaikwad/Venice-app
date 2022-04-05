@@ -11,3 +11,7 @@ https://venice-app.herokuapp.com/
 
 ## Preview
 ![Desktop View](src/Images/app-desktop-preview.PNG)
+
+## Demo Video
+https://user-images.githubusercontent.com/79163529/161789832-c398158f-85ce-4962-92f9-11d36611e75d.mp4
+
